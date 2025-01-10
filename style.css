@@ -61,7 +61,7 @@ background: rgb(0, 106, 80);
     width:300px
 }
 .vision-section{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 247, 166);
     border-radius: 10px;
     width: 950px;
     margin: 0 auto;
@@ -266,9 +266,10 @@ border: 1px solid rgba(14, 14, 14, 0.15);
     #input2{
         width: 400px;
         margin: 10px auto;
-        padding: 8px;
+        padding: 10px;
 
        border: none;
+       border-radius:5px ;
     }
     
       #input1::placeholder{
@@ -299,10 +300,10 @@ background-color:rgb(147, 249, 242);
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 
-background: rgb(255, 255, 255);
+background: rgb(255, 254, 221);
         width:800px;
         margin:30px auto ;
-        border: 1px solid rgb(183, 181, 181);
+        border: 1px solid rgb(164, 225, 242);
         padding: 20px;
         color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
@@ -311,8 +312,9 @@ font-family: Fira Sans;
     background-image: url('./assets/quote-bg.png');
     background-repeat: no-repeat;
    background-size: 30px;
-   background-position: inherit;
+   background-position:unset;
    font-size: 16px;
+   padding:5px ;
 }
 .quation-section h5{
     color: grey;
