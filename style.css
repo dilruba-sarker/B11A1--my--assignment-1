@@ -1,0 +1,205 @@
+*{margin:0 ;
+    padding: 0;
+}
+.banner-container{
+    /* width: 1080px; */
+    width: 900px;
+    height: 300px;
+    background-color: rgb(153, 245, 245);
+    display:flex ;
+   justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.banner-description{
+    /* width:600px; */
+    padding-left: 10px;
+    margin-left: 40px;
+    
+}
+.banner-description h6{
+    margin-left: 25px;
+
+    font-size: medium;
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+
+}
+
+.banner-description p{
+    font-size: 40px;
+    font-weight: 700;
+    width: 350px;
+    padding: 20px;
+    
+
+font-family: Fira Sans;
+}
+
+/* .banner-description  */
+.btn-red{
+border: 2px solid white;
+border-radius: 4px;
+color: aliceblue;
+padding: 8px;
+margin-left: 25px;
+transition: 0.3s;
+background: rgb(0, 106, 80);
+
+}
+.btn-red:hover{
+    background-color: rgb(215, 24, 7);
+}
+.banner-image{
+    /* width: 400px; */
+}
+
+.banner-image img{
+    width:300px
+}
+.vision-section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 10px 10px;
+}
+.vision{
+    width: 900px;
+   margin: 0 auto;
+   
+
+}
+.vision-card{
+    display: flex;
+    justify-content: space-around;
+    width: 950px;
+    margin: 0 auto;
+
+}
+.vision p{color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    margin-top: 10px;
+
+
+}
+.card{
+    box-sizing: border-box;
+border-radius: 16px;
+width: 300px;
+background: rgba(84, 144, 245, 0.2);
+padding: 20px 20px;
+margin-top: 20px;
+}
+.card h4{
+    margin: 8px 0px;
+}
+.card p{
+    margin-bottom: 8px;
+}
+ .btn-blue{
+    border-radius: 4px;
+    padding: 4px;
+    color: azure;
+
+    background: rgb(84, 144, 245);
+}
+#biskute{
+    background-color: blanchedalmond;
+}
+.btn-yellow{
+    background-color: chocolate;
+    border-radius: 4px;
+    padding: 4px;
+    color: beige;
+}
+#green{
+    background-color: rgb(124, 223, 124);
+}
+.btn-green{
+    background-color: rgb(226, 91, 143);
+    border-radius: 4px;
+    padding: 4px;
+    color: beige; 
+}
+.btn-green:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color:black ;
+}
+.btn-blue:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 254, 254) ;
+    
+}
+.btn-yellow:hover{
+    cursor: pointer;
+    background-color: rgb(41, 157, 34);
+    color:rgb(199, 8, 8) ;
+}
+.news-section{
+    background-color:rgb(244, 237, 237) ;
+    width: 960px;
+    margin: 30px auto;
+    padding: 30px;
+}
+.new-details{
+    width: 940px;
+    margin: 0 auto;
+  
+}
+.new-details p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+margin-bottom: 10px;
+}
+.image-news{
+    width: 300px;
+    border-radius: 10px;
+}
+.news-card-container{
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(159, 154, 198);
+    display:flex;
+    background-color: aliceblue;
+    padding:20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.news-card-container2{
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(159, 154, 198);
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: aliceblue;
+    padding:20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.date-conatainer{
+    display: flex;
+    gap:10px ;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+}
+.paragraph{
+    margin: 10px 0px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+    
+}
+#read{
+    margin-left: -8px;
+}
+
+
+    
+    
