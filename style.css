@@ -287,7 +287,7 @@ background-color:rgb(147, 249, 242);
         color: rgb(52, 52, 53);
       }
       .quation-section{
-        background-image: url("./assets/quote-bg.png");
+       
         box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
@@ -300,3 +300,10 @@ background: rgb(255, 255, 255);
         color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
       }
+.quation-section p{
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+   background-size: 30px;
+   background-position: inherit;
+   font-size: 16px;
+}
