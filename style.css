@@ -199,7 +199,51 @@ font-family: Fira Sans;
 #read{
     margin-left: -8px;
 }
+.donate-section{
+    width: 960px;
+    background-color:blanchedalmond ;
+    margin: 10px auto;
+    text-align: center;
+    padding: 30px;
+}
+.donate-section p {
+    width: 850px ;
+    margin: 10px auto;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+
+}
 
 
-    
-    
+    .donation1,.donation2,.donation3,.donation4{
+        padding: 15px;
+        box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+        font-size: 30px;
+        border-radius: 10px;
+        
+    }
+    .donation2{
+        
+        background: rgb(198, 228, 214);
+    }
+    .donation1:hover{
+        cursor: pointer;
+        background-color: aqua;
+        color:#000000 ;
+    }
+    .donation2:hover{
+        cursor: pointer;
+        background-color: rgb(233, 101, 139);
+        color:rgb(230, 225, 225) ;
+    }
+    .donation3:hover{
+        cursor: pointer;
+        background-color: rgb(16, 26, 226);
+        color:rgb(255, 253, 253) ;
+    }
+    .donation4:hover{
+        cursor: pointer;
+        background-color: rgb(233, 101, 139);
+        color:hsl(0, 10%, 96%) ;
+    }
