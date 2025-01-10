@@ -51,6 +51,7 @@ background: rgb(0, 106, 80);
 }
 .btn-red:hover{
     background-color: rgb(215, 24, 7);
+    transform: translateY(4px);
 }
 .banner-image{
     /* width: 400px; */
@@ -129,17 +130,19 @@ margin-top: 20px;
     cursor: pointer;
     background-color: aqua;
     color:black ;
+    transform: translateY(4px);
 }
 .btn-blue:hover{
     cursor: pointer;
     background-color: rgb(255, 0, 0);
     color:rgb(255, 254, 254) ;
-    
+    transform: translateY(4px);
 }
 .btn-yellow:hover{
     cursor: pointer;
     background-color: rgb(41, 157, 34);
     color:rgb(199, 8, 8) ;
+    transform: translateY(4px);
 }
 .news-section,.letter-container{ 
     background-color:rgb(244, 237, 237) ;
@@ -232,21 +235,25 @@ border: 1px solid rgba(14, 14, 14, 0.15);
         cursor: pointer;
         background-color: aqua;
         color:#000000 ;
+        transform: translateY(14px);
     }
     .donation2:hover{
         cursor: pointer;
         background-color: rgb(233, 101, 139);
         color:rgb(230, 225, 225) ;
+        transform: translateY(10px);
     }
     .donation3:hover{
         cursor: pointer;
         background-color: rgb(16, 26, 226);
         color:rgb(255, 253, 253) ;
+        transform: translateY(-10px);
     }
     .donation4:hover{
         cursor: pointer;
         background-color: rgb(233, 101, 139);
         color:hsl(0, 10%, 96%) ;
+        transform: translateY(10px);
     }
 
     #input1{
